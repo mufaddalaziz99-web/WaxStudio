@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env
+.env.local
+.env*.local
+.pgdata
+public/uploads/*
+!public/uploads/.gitkeep
+*.log
+.vercel
+next-env.d.ts

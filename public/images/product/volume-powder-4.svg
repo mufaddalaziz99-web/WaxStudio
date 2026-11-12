@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#141414"/>
+  <text x="70" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#f4efe6">Styled in</text>
+  <text x="70" y="226" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="64" fill="#d4cab8">thirty seconds.</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(70 320)">
+      <line x1="0" y1="0" x2="660" y2="0" stroke="#3a3936"/>
+      <text x="0" y="62" font-family="Georgia, serif" font-size="40" fill="#d4cab8">01</text>
+      <text x="110" y="48" font-size="14" fill="#f4efe6" letter-spacing="4">SPRINKLE</text>
+      <text x="110" y="78" font-size="17" fill="#9b9488">A light tap at the roots of dry hair</text>
+    </g>
+    <g transform="translate(70 460)">
+      <line x1="0" y1="0" x2="660" y2="0" stroke="#3a3936"/>
+      <text x="0" y="62" font-family="Georgia, serif" font-size="40" fill="#d4cab8">02</text>
+      <text x="110" y="48" font-size="14" fill="#f4efe6" letter-spacing="4">WORK IN</text>
+      <text x="110" y="78" font-size="17" fill="#9b9488">Massage with fingertips to activate</text>
+    </g>
+    <g transform="translate(70 600)">
+      <line x1="0" y1="0" x2="660" y2="0" stroke="#3a3936"/>
+      <text x="0" y="62" font-family="Georgia, serif" font-size="40" fill="#d4cab8">03</text>
+      <text x="110" y="48" font-size="14" fill="#f4efe6" letter-spacing="4">SHAPE</text>
+      <text x="110" y="78" font-size="17" fill="#9b9488">Lift, tousle and set your look</text>
+    </g>
+  </g>
+</svg>

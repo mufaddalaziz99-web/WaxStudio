@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".55" r=".8"><stop offset="0" stop-color="#2a2927"/><stop offset="1" stop-color="#121211"/></radialGradient>
+    <radialGradient id="pile" cx=".5" cy=".3" r=".7"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#ebe7e0"/><stop offset="1" stop-color="#bcb6ab"/></radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <ellipse cx="400" cy="600" rx="290" ry="44" fill="#000" opacity=".45"/>
+  <path d="M130 600 Q 260 390 400 362 Q 540 390 670 600 Z" fill="url(#pile)"/>
+  <g fill="#fff" opacity=".7">
+    <circle cx="210" cy="310" r="2.5"/><circle cx="270" cy="260" r="1.5"/><circle cx="340" cy="230" r="2"/><circle cx="470" cy="240" r="1.5"/><circle cx="540" cy="280" r="2.5"/>
+    <circle cx="600" cy="330" r="1.5"/><circle cx="390" cy="290" r="1.5"/><circle cx="440" cy="310" r="2"/>
+  </g>
+  <text x="400" y="140" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#f4efe6">Weightless <tspan font-style="italic">powder</tspan></text>
+  <text x="400" y="186" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#bdb09a" letter-spacing="5">TURNS INTO TEXTURE AT THE ROOTS</text>
+  <text x="400" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8e8069" letter-spacing="5">INVISIBLE ON HAIR</text>
+</svg>

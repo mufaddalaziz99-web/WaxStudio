@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #141414;
+  --cream: #f8f6f1;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background: var(--cream);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'ss01', 'cv11';
+}
+::selection { background: #141414; color: #f8f6f1; }
+
+@layer components {
+  .container-page { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10; }
+
+  /* Buttons: quiet, uppercase, generous tracking */
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-[12px] font-medium uppercase tracking-[0.16em] transition duration-300 disabled:cursor-not-allowed disabled:opacity-40; }
+  .btn-primary { @apply btn bg-ink text-cream hover:bg-black; }
+  .btn-dark { @apply btn bg-ink text-cream hover:bg-black; }
+  .btn-accent { @apply btn border border-ink bg-transparent text-ink hover:bg-ink hover:text-cream; }
+  .btn-outline { @apply btn border border-ink/25 bg-transparent text-ink hover:border-ink; }
+  .btn-ghost { @apply btn px-3 normal-case tracking-normal text-ink-soft hover:bg-ink/5; }
+
+  .card { @apply rounded-2xl bg-white ring-1 ring-line; }
+  .input { @apply w-full rounded-lg border border-line bg-white px-4 py-3 text-sm text-ink outline-none transition placeholder:text-ink-muted/70 focus:border-ink focus:ring-0; }
+  .input-error { @apply border-red-700 focus:border-red-700; }
+  .label { @apply mb-2 block text-[11px] font-medium uppercase tracking-[0.18em] text-ink-muted; }
+  .chip { @apply inline-flex items-center rounded-full border border-ink/15 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.14em] text-ink; }
+  .chip-soft { @apply inline-flex items-center rounded-full border border-line px-3 py-1 text-xs text-ink-soft; }
+
+  /* Editorial serif headline */
+  .display { @apply font-display font-normal leading-[0.98] tracking-[-0.02em]; }
+  /* Small quiet tag (replaces loud stickers) */
+  .sticker { @apply inline-block rounded-full border border-ink/15 bg-white px-3 py-1 font-sans text-[10px] font-medium uppercase tracking-[0.16em] text-ink-soft shadow-sm; }
+
+  .prose-store p { @apply mb-5 leading-[1.8] text-ink-soft; }
+  .prose-store h2 { @apply mb-3 mt-10 font-display text-3xl text-ink; }
+  .prose-store h3 { @apply mb-2 mt-6 text-lg font-medium text-ink; }
+  .prose-store ul { @apply mb-4 list-disc space-y-1 pl-5 text-ink-soft; }
+  .prose-store a { @apply text-ink underline decoration-ink/30 underline-offset-4 hover:decoration-ink; }
+
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee { animation: none !important; }
+}
